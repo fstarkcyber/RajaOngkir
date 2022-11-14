@@ -37,7 +37,7 @@ Paket pustaka PHP untuk mengakses API RajaOngkir dengan mudah.
 Gunakan [Composer](https://getcomposer.org) untuk menginstal pustaka ini.
 
 ```sh
-$ composer require fstarkcyber/rajaongkir:^1.0
+$ composer require fstarkcyber/rajaongkir:^1.1
 ```
 
 Anda juga bisa menambahkan dependensi ke `composer.json`.
@@ -45,7 +45,7 @@ Anda juga bisa menambahkan dependensi ke `composer.json`.
 ```json
 {
     "require": {
-        "fstarkcyber/rajaongkir": "^1.0"
+        "fstarkcyber/rajaongkir": "^1.1"
     }
 }
 ```
