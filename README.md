@@ -13,40 +13,40 @@ Paket pustaka PHP untuk mengakses API RajaOngkir dengan mudah.
 
 ### Fitur
 
-- [x] Daftar semua provinsi.
-- [x] Ambil provinsi berdasarkan ID.
-- [x] Pencarian provinsi berdasarkan nama.
-- [x] Daftar semua kota/kabupaten.
-- [x] Daftar kota/kabupaten berdasarkan ID provinsinya.
-- [x] Ambil kota/kabupaten berdasarkan ID.
-- [x] Pencarian kota/kabupaten berdasarkan nama.
-- [x] Ambil biaya pengiriman (ongkos kirim/ongkir).
+-   [x] Daftar semua provinsi.
+-   [x] Ambil provinsi berdasarkan ID.
+-   [x] Pencarian provinsi berdasarkan nama.
+-   [x] Daftar semua kota/kabupaten.
+-   [x] Daftar kota/kabupaten berdasarkan ID provinsinya.
+-   [x] Ambil kota/kabupaten berdasarkan ID.
+-   [x] Pencarian kota/kabupaten berdasarkan nama.
+-   [x] Ambil biaya pengiriman (ongkos kirim/ongkir).
 
 #### _To Do_
 
-- [ ] Fitur di tipe akun Basic dan Pro.
-- [ ] Pencarian _fuzzy_ (menggunakan [Fuse](https://github.com/loilo/Fuse)).
+-   [ ] Fitur di tipe akun Basic dan Pro.
+-   [ ] Pencarian _fuzzy_ (menggunakan [Fuse](https://github.com/loilo/Fuse)).
 
 ## Persyaratan Sistem
 
-- PHP 7.0 (direkomendasikan untuk menggunakan PHP 7.1 atau lebih tinggi).
-- Ekstensi cURL untuk PHP: `php-curl`
+-   PHP 7.0 (direkomendasikan untuk menggunakan PHP 7.1 atau lebih tinggi).
+-   Ekstensi cURL untuk PHP: `php-curl`
 
 ## Instalasi
 
 Gunakan [Composer](https://getcomposer.org) untuk menginstal pustaka ini.
 
 ```sh
-$ composer require fstarkcyber/rajaongkir:^1.0
+$ composer require fstarkcyber/rajaongkir:v1.0.0
 ```
 
 Anda juga bisa menambahkan dependensi ke `composer.json`.
 
 ```json
 {
-  "require": {
-    "fstarkcyber/rajaongkir": "^1.0"
-  }
+    "require": {
+        "fstarkcyber/rajaongkir": "v1.0.0"
+    }
 }
 ```
 
@@ -271,8 +271,8 @@ Silakan membaca [tata cara berkontribusi](CONTRIBUTING.md) untuk informasi lengk
 
 ## Kontributor
 
-- [Ian Mustafa](https://github.com/ianmustafa)
-- [Seluruh Kontributor](https://github.com/fstarkcyber/rajaongkir/contributors)
+-   [Ian Mustafa](https://github.com/ianmustafa)
+-   [Seluruh Kontributor](https://github.com/fstarkcyber/rajaongkir/contributors)
 
 ## Lisensi
 
